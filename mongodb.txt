@@ -1,0 +1,41 @@
+// restaurant food  item 
+db.resturant.insertMany([
+ 
+  { name: "Aloo Tikki Burger", price: 50, category: "burger", description: "Veg burger with Aloo Tikki." },
+  { name: "Veggie Delight Burger", price: 90, category: "burger", description: "Delicious vegetarian burger with assorted veggies." },
+  { name: "Paneer Burger", price: 120, category: "burger", description: "Burger with flavorful paneer patty." },
+
+ 
+  { name: "Margherita", price: 100, category: "pizza", description: "Classic Margherita pizza with tomato, mozzarella, and basil." },
+  { name: "Pepperoni", price: 110, category: "pizza", description: "Pizza topped with pepperoni slices." },
+  { name: "Fresh Veggie Pizza", price: 339, category: "pizza", description: "Vegetarian pizza loaded with fresh veggies." },
+
+ 
+  { name: "Thums Up", size: "750ml", price: 50, category: "colddrink", description: "Classic cola Thums Up." },
+  { name: "Mirinda", size: "750ml", price: 50, category: "colddrink", description: "Mirinda orange flavored drink." },
+]);
+
+// user order collection
+db.order.insertMany([
+   {
+userid:12345
+itemlist:[“burger”,”pizza”]
+price:100
+location:xyz
+payment:true
+}
+{
+userid:4562
+itemlist:[“burger”]
+price:60
+location:###
+payment:false
+}
+
+]}
+Db.users.insertOne({
+Name:xyz
+phoneNo:923456789
+email:xyz@gmail.com
+password:12345
+})
