@@ -1,0 +1,11 @@
+.signup{
+    border: 2px black;
+    text-align: center;
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: start;
+    align-items: center;
+}

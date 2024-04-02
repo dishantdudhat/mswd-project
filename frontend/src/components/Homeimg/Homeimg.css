@@ -1,0 +1,47 @@
+.home{
+    /* filter: brightness(50%); */
+    display: flex;
+    align-items: center;
+    /* padding-top: 10px; */
+    margin-bottom: 10px;
+    min-width:100vw;
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+
+    background-image: url(../../assets/background-img.jpg)
+}
+
+.text{
+    margin-left: 20px;
+}
+.text h3{
+    margin: 0;
+    color: white;
+}
+@media (max-width:900px) {
+    .home{
+        min-height: 50vh;
+    }
+}
+@media (max-width:600px) {
+    .home{
+        min-height: 30vh;
+    }
+}
+.text p{
+    color: white;
+    margin: 0;
+}
+.text h1{
+    color: white;
+    margin: 0;
+}
+.text button{
+    padding: 10px 15px;
+    border-radius: 99px;
+    border: 2px;
+}
+.text button a{
+    
+}

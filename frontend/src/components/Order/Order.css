@@ -1,0 +1,16 @@
+.product-list{
+    display: flex;
+    gap:10px;
+}
+.product-section{
+    margin: 10px;
+}
+.product-item{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: #c4bbbb 0px 5px 15px;
+}
+
+.product-item img{
+    width:150px;
+}
